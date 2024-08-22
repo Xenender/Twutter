@@ -1,0 +1,187 @@
+
+.tweet {
+    position: relative;
+    background-color: white;
+    border-bottom: 1px solid #E1E8ED;
+    padding: 15px;
+}
+
+.tweet-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.tweet-text {
+    margin: 0;
+}
+
+.tweet-date {
+    position: absolute;
+    right: 40px;
+    bottom: 10px;
+}
+
+
+
+/* Style for the dropdown button */
+.dropbtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content button {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    border: none;
+    background: none;
+    text-align: left;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content button:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on button hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.tweet-actions button .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+
+
+.tweet-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.tweet-actions button {
+
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+.comment-section {
+    margin-top: 10px;
+}
+
+.comment-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #283442;
+    color: white;
+}
+
+.send-comment-button {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.send-comment-button:hover {
+    background-color: #218838;
+}
+
+
+
+.divCommentaires{
+    margin-top: 10px;
+}
+
+
+.comment {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.comment-username {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.comment-text {
+    margin: 0;
+}
+
+
+
+
+
+body.dark-mode .tweet {
+    background-color: #18202A;
+    border-bottom: 1px solid #333333; /* Bordure sombre */
+}
+
+body.dark-mode .tweet-header {
+    color: #E0E0E0; /* Couleur du texte claire */
+}
+
+body.dark-mode .tweet-text {
+    color: #E0E0E0; /* Couleur du texte claire */
+}
+
+body.dark-mode .tweet-date {
+    color: #A0A0A0; /* Couleur de la date claire */
+}
+
+
+
+

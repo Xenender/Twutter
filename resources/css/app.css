@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    padding: 0 32vh;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #18202A;
+    color: #E0E0E0; /* Couleur du texte claire */
+}
+
+.main-content {
+    border-right: #555555 solid 1px;
+}
+
+/* Media Queries */
+
+/* Écran moyen */
+@media (max-width: 1200px) {
+    .container {
+        padding: 0 24vh;
+    }
+}
+
+/* Écran petit */
+@media (max-width: 992px) {
+    .container {
+        padding: 0 16vh;
+    }
+}
+
+/* Écran très petit */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 6vh;
+    }
+}
+
+/* Écran mobile */
+@media (max-width: 576px) {
+    .container {
+        padding: 0px;
+    }
+}

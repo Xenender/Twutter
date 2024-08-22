@@ -1,0 +1,91 @@
+.profile-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.username {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.bio {
+    margin: 10px 0;
+    color: #666;
+}
+
+.edit-profile-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-profile-btn:hover {
+    background-color: #0056b3;
+}
+
+.separator {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #e0e0e0;
+}
+
+
+#titrePost{
+    padding: 15px;
+    border-bottom: 1px solid #E1E8ED;
+}
+
+/* Dark mode styles */
+body.dark-mode .profile-container {
+    background-color: transparent;
+
+
+    ; /* Fond sombre */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Ombre légère pour contraste */
+}
+
+body.dark-mode .username {
+    color: #E0E0E0; /* Couleur du texte claire */
+}
+
+body.dark-mode .bio {
+    color: #A0A0A0; /* Couleur du texte claire */
+}
+
+body.dark-mode .edit-profile-btn {
+    background-color: #555555; /* Bouton sombre */
+    color: #E0E0E0; /* Couleur du texte claire */
+}
+
+body.dark-mode .edit-profile-btn:hover {
+    background-color: #777777; /* Couleur au survol */
+}
+
+body.dark-mode .separator {
+    border-top: 1px solid #777777; /* Couleur de la séparation */
+}

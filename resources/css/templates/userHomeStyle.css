@@ -1,0 +1,6 @@
+.declaration-item{
+    width: 100%;
+    max-height: 100px;
+    background: #3D6AA2;
+    overflow: hidden;
+}
