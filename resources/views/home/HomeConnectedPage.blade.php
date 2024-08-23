@@ -22,26 +22,11 @@
     <div class="tweets">
     @foreach($posts as $post)
 
-    <script>
-
-
-
-
-
-    </script>
-
         @php
             $userPost = $post->user;
         @endphp
 
-    <!-- @foreach($users as $user)
-    @if($user->idUser == $post->User_idUser)
-        @php
-            $userPost = $user;
-        @endphp
-        @break
-    @endif
-    @endforeach -->
+
     <div class="tweet" data-post-id="{{ $post->idpost }}">
         <div class="tweet-header">
             <img src="{{ asset('images/dark/profile-iconDark.png') }}" alt="User 1" class="avatar">
